@@ -1,0 +1,28 @@
+.header__container {
+  display: flex;
+  padding-top: 5rem;
+}
+.header-link {
+  margin-right: auto;
+}
+
+.header__btn {
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: $sky-blue;
+  color: $dark-green-color;
+  font-family: $main-ff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.62;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header__btn:hover {
+  transition: 0.4s;
+  background-color: $orange-light;
+  color: $white-color;
+}
